@@ -1,2 +1,8 @@
+# 勉強用フォルダは現時点では除外
 /StudyProjects/
-/BronzeExamPrep/Chap01_JavaBasics/Chap01_Q08/bin
+
+# すべての bin フォルダを無視
+**/bin/
+
+# Javaのコンパイル結果を無視
+*.class
