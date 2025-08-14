@@ -6,3 +6,6 @@
 
 # Javaのコンパイル結果を無視
 *.class
+
+#Javaフォルダ以下の階層構造
+tree.txt
