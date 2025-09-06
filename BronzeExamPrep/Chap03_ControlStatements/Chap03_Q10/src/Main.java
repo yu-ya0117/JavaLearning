@@ -6,5 +6,10 @@ public class Main{
         System.out.println(++a);    //++aはaが1加算された状態で出力
         System.out.println(b);
         System.out.println(b++);    //b++はbが加算される前に出力
+
+        //値をリセット
+        a = 2;
+        b = 5;
+        System.out.println(++a + b++);  //2+1+5の合計が出力されている。
     }
 }
