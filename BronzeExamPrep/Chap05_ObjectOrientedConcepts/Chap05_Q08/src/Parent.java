@@ -1,5 +1,5 @@
 public class Parent {
     public void method(){
-        System.out.println("キタサンブラック");
+        System.out.println("Parent");
     }
 }

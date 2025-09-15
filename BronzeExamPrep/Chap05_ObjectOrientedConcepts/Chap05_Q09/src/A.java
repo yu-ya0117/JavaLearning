@@ -1,5 +1,5 @@
 public class A {
     public void test(){
-        System.out.println("キングカメハメハ");
+        System.out.println("A");
     } 
 }
