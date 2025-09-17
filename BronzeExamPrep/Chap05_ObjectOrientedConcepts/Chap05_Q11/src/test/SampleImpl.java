@@ -1,7 +1,7 @@
 package test;
 
-class SampleImpl implements Sample{
-
+//Sampleクラスを実装したクラス(publicではない)
+class SampleImpl implements Sample{ 
     SampleImpl(){
         //do something
     }
