@@ -1,11 +1,27 @@
-# 勉強用フォルダは現時点では除外
-/StudyProjects/
+# Mac の不要ファイル
+.DS_Store
+**/.DS_Store
 
-# すべての bin フォルダを無視
-**/bin/
-
-# Javaのコンパイル結果を無視
+# Java クラスファイル
 *.class
 
-#Javaフォルダ以下の階層構造
-tree.txt
+# ビルド成果物
+**/bin/
+**/target/
+
+# ログや一時ファイル
+*.log
+*.tmp
+
+# IDE 設定ファイル（もしIDEを使う場合）
+.idea/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+.vscode/
+
+# Docker 関連
+**/.dockerignore
