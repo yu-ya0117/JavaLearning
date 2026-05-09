@@ -10,6 +10,13 @@
 - `StudyProjects/`  
   Javaの基本文法や標準API、GUI（Swing）などの学習用プロジェクトを格納予定です。
 
+## 汎用JavaプログラムのDocker実行例
+
+```bash
+docker build -f Dockerfile.java -t introstep6input ./StudyProjects/RUNTEQ/JavaIntroduction/step06_HashMap/input
+docker run --rm introstep6input Main
+```
+
 ## 今後の予定
 
 - Java Silver試験へのステップアップを見据えたコードの追加
